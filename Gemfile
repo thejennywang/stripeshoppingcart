@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.3'
+ruby '2.7.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
@@ -9,10 +9,12 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 gem 'sqlite3', '~> 1.4' # group: [:development, :test]
 
 #postgres for prod db
-#gem 'pg', group: :production
+gem 'pg', group: :production
 
 #12 factor for heroku
-#gem 'rails_12factor', group: :production
+gem 'rails_12factor', group: :production
+
+#gem 'bootstrap-sass'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets

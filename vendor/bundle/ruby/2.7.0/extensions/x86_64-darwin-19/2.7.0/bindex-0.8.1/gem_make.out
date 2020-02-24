@@ -1,0 +1,15 @@
+current directory: /Users/jenny.wang/dev/shoppingcart/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/2.7.0/lib/ruby/2.7.0 -r ./siteconf20200223-15670-1fuehy4.rb extconf.rb
+creating Makefile
+
+current directory: /Users/jenny.wang/dev/shoppingcart/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/jenny.wang/dev/shoppingcart/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/jenny.wang/dev/shoppingcart/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20200223-15670-1w9vzt8/skiptrace/internal
